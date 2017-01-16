@@ -21,8 +21,6 @@ bibentry(bibtype = "Manual",
   year         = "2016",
   url          = "https://arxiv.org/abs/1607.06288")
 
-  textVersion  =
-  paste("Matthias Eckardt and Jorge Mateu.",
+  textVersion  =  paste("Matthias Eckardt and Jorge Mateu (2016).",
         "Point patterns occurring on complex structures in space and space-time: An alternative network approach.",
-        "arXiv preprints",
         "https://arxiv.org/abs/1607.06288")              
