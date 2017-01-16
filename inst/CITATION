@@ -1,11 +1,29 @@
+citHeader("To cite intensitynet in publications use:")
+
 note <- sprintf("R package version %s", meta$Version)
 
 bibentry(bibtype = "Manual",
          title = "{intensitynet}: Network intensity function for planar networks",
          author = person("Matthias Eckardt"),
-         year = year,
+         year = 2016,
          note = note,
          url = "https://github.com/MckEatt/intensitynet")
 
   textVersion = paste("Matthias Eckardt (2016)",
                 "intensitynet: Network intensity function for planar networks",   note, ".")
+                
+                
+  citEntry(entry = "Article",
+  title        = "Point patterns occurring on complex structures in space and space-time: An alternative network approach",
+  author       = personList(as.person("Matthias Eckardt"),
+                   as.person("Jorge Mateu")),
+  journal      = "arXiv",
+  year         = "2016",
+  url          = "https://arxiv.org/abs/1607.06288",
+
+  textVersion  =
+  paste("Matthias Eckardt and Jorge Mateu.",
+        "Point patterns occurring on complex structures in space and space-time: An alternative network approach.",
+        "arXiv preprints",
+        "https://arxiv.org/abs/1607.06288"
+)              
