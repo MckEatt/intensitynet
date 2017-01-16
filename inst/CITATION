@@ -5,8 +5,7 @@ citEntry(entry= "Manual",
          author = person("Matthias Eckardt"),
          year = 2016,
          url = "https://github.com/MckEatt/intensitynet",
-
-  textVersion = paste("Matthias Eckardt (2016)",
+         textVersion = paste("Matthias Eckardt (2016)",
                 "intensitynet: Network intensity function for planar networks"))
                 
                 
@@ -17,7 +16,6 @@ citEntry(entry= "Manual",
   journal      = "arXiv",
   year         = "2016",
   url          = "https://arxiv.org/abs/1607.06288",
-
   textVersion  =  paste("Matthias Eckardt and Jorge Mateu (2016).",
         "Point patterns occurring on complex structures in space and space-time: An alternative network approach.",
         "https://arxiv.org/abs/1607.06288"))              
