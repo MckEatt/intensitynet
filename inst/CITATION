@@ -1,7 +1,7 @@
 citHeader("To cite intensitynet in publications use:")
 
 citEntry(entry= "Manual",
-         title = "{intensitynet}: Network intensity function for planar networks",
+         title = "{intensitynet}: Network intensity functions for planar networks",
          author = person("Matthias Eckardt"),
          year = 2016,
          url = "https://github.com/MckEatt/intensitynet",
