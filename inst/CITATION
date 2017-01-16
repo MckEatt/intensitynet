@@ -7,7 +7,7 @@ citEntry(entry= "Manual",
          url = "https://github.com/MckEatt/intensitynet",
 
   textVersion = paste("Matthias Eckardt (2016)",
-                "intensitynet: Network intensity function for planar networks",   note, "."))
+                "intensitynet: Network intensity function for planar networks"))
                 
                 
   citEntry(entry = "Article",
