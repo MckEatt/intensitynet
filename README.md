@@ -6,6 +6,6 @@ Package provides artificial data on crimes committed on a traffic net, the adjac
 
 For installation, please execute the following lines in the R:
 
-install.packages('devtools',dependencies=T)
-library(devtools)
+install.packages('devtools',dependencies=T);
+library(devtools);
 install_github('MckEatt/intensitynet')
