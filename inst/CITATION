@@ -1,0 +1,11 @@
+note <- sprintf("R package version %s", meta$Version)
+
+bibentry(bibtype = "Manual",
+         title = "{intensitynet}: Network intensity function for planar networks",
+         author = person("Matthias Eckardt"),
+         year = year,
+         note = note,
+         url = "https://github.com/MckEatt/intensitynet")
+
+  textVersion = paste("Matthias Eckardt (2016)",
+                "intensitynet: Network intensity function for planar networks",   note, ".")
