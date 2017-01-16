@@ -2,7 +2,7 @@ citHeader("To cite intensitynet in publications use:")
 
 note <- sprintf("R package version %s", meta$Version)
 
-bibentry(bibtype = "Manual",
+citEntry(entry= "Manual",
          title = "{intensitynet}: Network intensity function for planar networks",
          author = person("Matthias Eckardt"),
          year = 2016,
