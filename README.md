@@ -6,8 +6,10 @@ Package provides artificial data on crimes committed on a traffic net, the adjac
 
 For installation, please execute the following lines in the R:
 
-install.packages('devtools',dependencies=T);
-library(devtools);
+install.packages('devtools',dependencies=T)
+
+library(devtools)
+
 install_github('MckEatt/intensitynet')
 
 # Application
@@ -15,13 +17,18 @@ install_github('MckEatt/intensitynet')
 
 
 library(intensitynet)
+
 data(Castellon)
+
 data(crimes)
+
 data(nodes)
 
  subset of events
 
 
 crim <- crimes[11:111,]
+
+
 intensitynet:::netintensity(Castellon, nodes$cx, nodes$cy, crim$X, crim$Y)
 
