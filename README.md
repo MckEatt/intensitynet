@@ -11,13 +11,17 @@ library(devtools);
 install_github('MckEatt/intensitynet')
 
 # Application
-' load adjacency structure, georeference events and georeferenced nodes 
+ load adjacency structure, georeference events and georeferenced nodes 
+
+
 library(intensitynet)
 data(Castellon)
 data(crimes)
 data(nodes)
 
-' subset of events
+ subset of events
+
+
 crim <- crimes[11:111,]
 intensitynet:::netintensity(Castellon, nodes$cx, nodes$cy, crim$X, crim$Y)
 
